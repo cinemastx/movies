@@ -13,20 +13,20 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '25092211'))
-API_HASH = environ.get('API_HASH', '7008d12c916ccaf6d1e115f24f98688d')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8105750572:AAE36Op0-yN7cOgzRdLTu04wupekSDipI9w')
+API_ID = int(environ.get('API_ID', '36889688'))
+API_HASH = environ.get('API_HASH', 'fa22af76b1a3802b60aa72de22bc946d')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8463666347:AAEvCY5kTu6U-lbmRKQGN46Fqd3KsjmK_Ok')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1718586743').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Sagar_optimizer") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002152624607'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+CGfJLlII1-I1Mjll')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002309621963').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8658134725').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/crazxysoup") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003833710318'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+-DjkmA1voaYzZDM1')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003866062396').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Cinemastx:Cinemastx@cinemastx.zfe0t.mongodb.net/?retryWrites=true&w=majority&appName=Cinemastx")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cinemastx")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://crazysoup:crazysoup@cluster0.nbyozr4.mongodb.net/?appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "crazysoup")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
